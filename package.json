@@ -1,13 +1,14 @@
 {
-  "name": "ipl-social",
+  "name": "exam",
   "version": "1.0.0",
-  "description": "- Nom : lefranc sacha\r - Email :",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "jasmine": "^5.5.0"
