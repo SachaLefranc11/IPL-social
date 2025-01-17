@@ -1,4 +1,4 @@
-import { hasMinimumLength, hasSpecialCharacter} from '../src/passwordChecker.js';
+import { hasMinimumLength, hasSpecialCharacter,hasDigit} from '../src/passwordChecker.js';
 
 describe('hasMinimumLength', () => {
     it('should return true for passwords with at least 8 characters', () => {
@@ -18,5 +18,14 @@ describe('hasSpecialCharacter', () => {
 
     it('should return false for passwords without special characters', () => {
         expect(hasSpecialCharacter('abc123')).toBe(false);
+    });
+});
+describe('hasDigit', () => {
+    it('should return true for passwords with at least one digit', () => {
+        expect(hasDigit('abc1')).toBe(true);
+    });
+
+    it('should return false for passwords without digits', () => {
+        expect(hasDigit('abc!')).toBe(false);
     });
 });

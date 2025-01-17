@@ -5,3 +5,6 @@ export function hasSpecialCharacter(password) {
     const specialCharPattern = /[!@#$%^&*(),.?":{}|<>]/;
     return specialCharPattern.test(password);
 }
+export function hasDigit(password) {
+    return /\d/.test(password);
+}
