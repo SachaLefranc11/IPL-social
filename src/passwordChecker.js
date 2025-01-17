@@ -8,3 +8,6 @@ export function hasSpecialCharacter(password) {
 export function hasDigit(password) {
     return /\d/.test(password);
 }
+export function doesNotContainIPL(password) {
+    return !/IPL/i.test(password);
+}
