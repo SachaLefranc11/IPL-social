@@ -2,7 +2,7 @@
 
 ## Auteur
 - Nom : lefranc sacha
-- Email : 
+- Email : sacha.lefranc@student.vinci.be
 
 ## URL du projet
 url : https://github.com/SachaLefranc11/IPL-social
